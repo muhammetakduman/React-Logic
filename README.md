@@ -1,3 +1,11 @@
+node -v
+npm -v
+npm install -g create-react-app
+npx create-react-my-app
+cd blog
+npm start
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
