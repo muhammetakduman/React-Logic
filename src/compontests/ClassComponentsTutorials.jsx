@@ -15,7 +15,7 @@ class ClassComponentsTutorials extends Component{
     } //end constructor
 
     //cdm
-    //evet
+    //event
     countPlusHandClick(){
         this.setState({
             count:this.state.count + 1

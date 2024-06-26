@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import ClassComponentTutorials from './compontests/ClassComponentsTutorials'
 import reportWebVitals from './reportWebVitals';
+import FunctionComponentsTutorials from './compontests/FunctionComponentsTutorials';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <FunctionComponentsTutorials/>
+    {/* <ClassComponentTutorials/> */}
     {/* <App /> */}
-    <ClassComponentTutorials/>
   </React.StrictMode>
 );
 
