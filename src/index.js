@@ -5,11 +5,18 @@ import App from './App';
 import ClassComponentTutorials from './compontests/ClassComponentsTutorials'
 import reportWebVitals from './reportWebVitals';
 import FunctionComponentsTutorials from './compontests/FunctionComponentsTutorials';
+import RouterBlog from './RouterBlog';
+
+//Router 
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FunctionComponentsTutorials/>
+    <BrowserRouter>
+    <RouterBlog/>
+    </BrowserRouter>
+    {/* <FunctionComponentsTutorials/> */}
     {/* <ClassComponentTutorials/> */}
     {/* <App /> */}
   </React.StrictMode>
